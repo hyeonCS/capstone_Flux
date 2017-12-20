@@ -1,0 +1,2 @@
+파이카메라 쓸시 : python realtime.py --model MobileNetSSD_deploy.caffemodel --prototxt MobileNetSSD_deploy.prototxt.txt --picamera 1 --pinumber 4 --host 192.168.0.14 --port 12345
+파이카메라 안쓸시 : python realtime.py --model MobileNetSSD_deploy.caffemodel --prototxt MobileNetSSD_deploy.prototxt.txt  --pinumber 4 --host 192.168.0.14 --port 12345
